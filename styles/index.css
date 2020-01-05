@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply bg-gray-200;
+}
+.btn {
+  @apply font-bold py-2 px-4 rounded text-center;
+}
+.normal {
+  @apply bg-gray-300 text-gray-900;
+}
+.fire {
+  @apply bg-orange-500 text-white;
+}
+.water {
+  @apply bg-blue-500 text-white;
+}
+.electric {
+  @apply bg-yellow-500 text-white;
+}
+.grass {
+  @apply bg-green-500 text-white;
+}
+.ice {
+  @apply bg-blue-300 text-white;
+}
+.fighting {
+  @apply bg-red-800 text-white;
+}
+.poison {
+  @apply bg-purple-500 text-white;
+}
+.ground {
+  @apply bg-yellow-500 text-white;
+}
+.flying {
+  @apply bg-purple-300 text-white;
+}
+.psychic {
+  @apply bg-pink-500 text-white;
+}
+.bug {
+  @apply bg-green-400 text-white;
+}
+.rock {
+  @apply bg-orange-300 text-white;
+}
+.ghost {
+  @apply bg-purple-900 text-white;
+}
+.dragon {
+  @apply bg-indigo-700 text-white;
+}
+.dark {
+  @apply bg-black text-white;
+}
+.steel {
+  @apply bg-gray-500 text-white;
+}
+.fairy {
+  @apply bg-pink-500 text-white;
+}
